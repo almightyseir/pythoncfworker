@@ -1,6 +1,6 @@
 #
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h4 align="center">ꜱɪᴍᴘʟᴇ ᴄᴏᴅᴇ ꜰᴏʀ ᴛɢʙᴏᴛ ɪɴ ᴄꜰ ᴡᴏʀᴋᴇʀ ᴜꜱɪɴɢ ᴘʏᴛʜᴏɴ</p>
+ꜱɪᴍᴘʟᴇ ᴄᴏᴅᴇ ꜰᴏʀ ᴛɢʙᴏᴛ ɪɴ ᴄꜰ ᴡᴏʀᴋᴇʀ ᴜꜱɪɴɢ ᴘʏᴛʜᴏɴ
 
 
 ```
