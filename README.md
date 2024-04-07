@@ -4,7 +4,7 @@
 
 
 ```
-                from js import Response, Headers, fetch, console
+from js import Response, Headers, fetch, console
 from urllib.parse import urlparse
 import json
 
@@ -12,7 +12,7 @@ token = "" #or use env,declare them in wrangler.toml
 async def send_message(chat_id, text):
     url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={text}"
     await fetch(url)
-    
+
 async def on_fetch(request):
     url = urlparse(request.url)
     if url.path == "/bot" and request.method == 'POST':
@@ -29,6 +29,7 @@ async def on_fetch(request):
         return Response.new("Python Worker :)", {"status": 200})
 
     return Response.new("Invalid request", {"status": 400})
+
 
 
    
