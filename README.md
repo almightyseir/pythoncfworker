@@ -3,7 +3,7 @@
 <h4 align="center">ꜱɪᴍᴘʟᴇ ᴄᴏᴅᴇ ꜰᴏʀ ᴛɢʙᴏᴛ ɪɴ ᴄꜰ ᴡᴏʀᴋᴇʀ ᴜꜱɪɴɢ ᴘʏᴛʜᴏɴ
 #
 
-
+#
 ```
 from js import Response, Headers, fetch, console
 from urllib.parse import urlparse
@@ -30,6 +30,7 @@ async def on_fetch(request):
         return Response.new("Python Worker :)", {"status": 200})
 
     return Response.new("Invalid request", {"status": 400})
+#
 
 
 
